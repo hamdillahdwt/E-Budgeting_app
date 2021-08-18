@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/abu1"
+    tools:context=".UpdateAkun">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        app:srcCompat="@drawable/logo2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="UBAH DATA"
+        android:textColor="@color/biru"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_marginLeft="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="E-Mail"
+        android:textColor="@color/kuning"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/UBAH_email"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:hint="Email"
+        android:textColorHint="@color/abu2"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:textColor="#565656" />
+
+    <TextView
+        android:layout_marginLeft="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Password"
+        android:textColor="@color/kuning"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/oldPassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:hint="Password Baru"
+        android:textColorHint="@color/abu2"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textColor="#565656" />
+
+    <EditText
+        android:id="@+id/newPassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:hint="Konfirmasi Password"
+        android:textColorHint="@color/abu2"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textColor="#565656" />
+
+
+    <Button
+        android:id="@+id/ubahBtn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/rounded_button_biru"
+        android:layout_gravity="center"
+        android:text="UBAH DAta"
+        android:textColor="@color/putih" />
+
+    <Button
+        android:id="@+id/batalBtn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button_abu"
+        android:layout_gravity="center"
+        android:text="Cancel"
+        android:textColor="@color/putih" />
+
+</LinearLayout>

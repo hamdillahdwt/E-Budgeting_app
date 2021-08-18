@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "201759829555",
+    "firebase_url": "https://personal-budgeting-app-ca825-default-rtdb.firebaseio.com",
+    "project_id": "personal-budgeting-app-ca825",
+    "storage_bucket": "personal-budgeting-app-ca825.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201759829555:android:9d5751099bc9533652fd46",
+        "android_client_info": {
+          "package_name": "com.aplikasi.eBudgeting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201759829555-o3i9csq7t0kp6rhr8brrbo253f6e1cn2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC40ypxcxiP94j2xXDKorxKgCLhw9qoPTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201759829555-o3i9csq7t0kp6rhr8brrbo253f6e1cn2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201759829555:android:1dd5901f4d426ca652fd46",
+        "android_client_info": {
+          "package_name": "com.willteksoftwares.personalbudgetingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201759829555-o3i9csq7t0kp6rhr8brrbo253f6e1cn2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC40ypxcxiP94j2xXDKorxKgCLhw9qoPTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201759829555-o3i9csq7t0kp6rhr8brrbo253f6e1cn2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

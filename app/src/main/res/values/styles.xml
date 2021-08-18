@@ -1,0 +1,12 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.EBudgeting" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/abu1</item>
+        <item name="colorPrimaryDark">@color/biru</item>
+        <item name="colorAccent">@color/kuning3</item>
+        <item name="colorOnBackground">@color/putih</item>
+        <item name="android:textColor">@color/abu3</item>
+    </style>
+
+</resources>
